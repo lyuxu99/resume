@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyuxu99/resume.git"
+  },
+  "author": "Xu Lyu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyuxu99/resume/issues"
+  },
+  "homepage": "https://github.com/lyuxu99/resume#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
