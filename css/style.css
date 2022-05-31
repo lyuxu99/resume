@@ -9,7 +9,7 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: #777;
-  padding: 2rem; }
+  padding: 1rem; }
 
 @keyframes leftMove {
   0% {
@@ -38,6 +38,40 @@ body {
     opacity: 1;
     transform: translate(0); } }
 
+.u-center-text {
+  text-align: center !important; }
+
+.u-marigin-bottom-8 {
+  margin-bottom: 8rem; }
+
+.heading-secondary {
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-image: linear-gradient(to right, #7777FF, #4F4FFF);
+  -webkit-background-clip: text;
+  color: transparent; }
+  .heading-secondary:hover {
+    transform: translateY(-0.5rem); }
+
+.heading-projects {
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.paragraph {
+  font-size: 2rem; }
+  .paragraph:not(:last-child) {
+    margin-bottom: 3rem; }
+
+.job-text {
+  font-size: 1.8rem;
+  font-weight: 600; }
+
+.section-projects {
+  background-color: #f5f5f5;
+  padding: 5rem 4rem; }
+
 .btn:link, .btn:visited {
   text-transform: uppercase;
   text-decoration: none;
@@ -61,13 +95,49 @@ body {
   font-size: 15px;
   letter-spacing: 3px; }
 
+.project-btn-text {
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #5ca9fb;
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  text-decoration: none;
+  margin: 0 5rem; }
+
+.projects {
+  position: relative; }
+  .projects__photo {
+    width: 75%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 2px;
+    position: absolute;
+    outline-offset: 1rem; }
+    .projects__photo--p1 {
+      left: 0;
+      top: 2rem; }
+    .projects__photo--p2 {
+      left: 60;
+      top: 15rem; }
+    .projects__photo--p3 {
+      left: 120;
+      top: 28rem; }
+    .projects__photo:hover {
+      outline: 1rem solid #4d98cf;
+      transform: scale(1.1);
+      box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+      z-index: 20; }
+  .projects:hover .projects__photo:not(:hover) {
+    transform: scale(0.95); }
+
 .header {
   height: 95vh;
   background-image: linear-gradient(#7D7D7D, #7777), url(../img/background.jpg);
   background-size: cover;
-  background-position: center;
-  clip-path: polygon(0 0, 100% 0, 100% 75%, 0 100%);
-  position: relative; }
+  background-position: center; }
   .header__logo-box {
     position: absolute;
     top: 4rem;
@@ -101,8 +171,7 @@ body {
     margin-bottom: 5rem; }
 
 .row {
-  max-width: 114rem;
-  background-color: lightgray;
+  max-width: 164rem;
   margin: 0 auto; }
   .row:not(:last-child) {
     margin-bottom: 8rem; }
@@ -111,9 +180,7 @@ body {
     display: table;
     clear: both; }
   .row [class^="col-"] {
-    background-color: red;
-    float: left;
-    height: 30px; }
+    float: left; }
     .row [class^="col-"]:not(:last-child) {
       margin-right: 6rem; }
   .row .col-1-of-2 {

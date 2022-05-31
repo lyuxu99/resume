@@ -1,0 +1,32 @@
+.heading-secondary{
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    background-image: linear-gradient(to right, #7777FF, #4F4FFF);
+    -webkit-background-clip: text;
+    color: transparent;
+
+    &:hover{
+        transform: translateY(-0.5rem);
+    }
+}
+
+.heading-projects{
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.paragraph{
+    font-size: 2rem;
+
+    &:not(:last-child){
+        margin-bottom: 3rem;
+    }
+}
+
+.job-text{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+

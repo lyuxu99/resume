@@ -5,10 +5,12 @@
 
 @import "abstracts/variables";
 @import "abstracts/clearfix";
+@import "abstracts/mixin";
 
 @import "pages/home";
 
 @import "components/button";
+@import "components/projects";
 
 @import "layout/header";
 @import "layout/_grid.scss";
